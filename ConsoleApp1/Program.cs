@@ -8,8 +8,62 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
 
-            #region vars
 
+
+
+
+            variables();
+
+            literals();
+
+            Console.Read();
+        }
+        
+        #region literals
+        private static void literals()
+        {
+            #region 2x
+
+            int x = 0b101;
+            int y = 0b1011;
+            int z = 0b10001;
+            int k = 0b10001111;    //the same
+            int kk = 0b1000_1111;  //the same
+
+            Console.WriteLine($"literals 2x: {x}, {y}, {z}, {k}, {kk}");
+
+            #endregion
+
+            #region 16x
+
+            x = 0x1b1;
+            y = 0x10c1;
+            z = 0x1ad01;
+            k = 0x1adc1111;    //the same
+            kk = 0x1adc_1111;  //the same
+
+            Console.WriteLine($"literals 16x: {x}, {y}, {z}, {k}, {kk}");
+
+            #endregion
+
+            Console.WriteLine();
+
+            Console.WriteLine(4.5E3);
+            Console.WriteLine(6.2E-2);
+
+            Console.WriteLine();
+
+            Console.WriteLine('\x78');
+            Console.WriteLine('\x5A');
+
+            Console.WriteLine('\u0420');
+            Console.WriteLine('\u0421');
+        }
+        #endregion
+
+        #region vars
+        private static void variables()
+        {
             int x = 1;
             int y;
             y = 2;
@@ -32,10 +86,9 @@ namespace ConsoleApp1
             object obj = 1; //can but don't
             object obj_ = "qwerty"; //can but don't
 
-            #endregion
-            
-            Console.WriteLine($"object {obj_}");
-            Console.ReadLine();
+            Console.WriteLine($"object: {obj_}");
         }
+        #endregion
+
     }
 }
