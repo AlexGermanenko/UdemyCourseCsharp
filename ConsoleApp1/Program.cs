@@ -9,7 +9,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
 
-
+            overflow();
 
             scope();
 
@@ -18,6 +18,21 @@ namespace ConsoleApp1
             literals();
 
             Console.Read();
+        }
+
+        private static void overflow()
+        {
+            checked
+            {
+                uint x = UInt32.MaxValue;
+                Console.WriteLine(x);
+
+                x++;
+                Console.WriteLine(x);
+
+                x--;
+                Console.WriteLine(x);
+            }
         }
 
         #region scope
