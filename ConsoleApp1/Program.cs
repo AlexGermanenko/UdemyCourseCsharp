@@ -11,7 +11,7 @@ namespace ConsoleApp1
 
 
 
-            Scope();
+            scope();
 
             variables();
 
@@ -20,7 +20,9 @@ namespace ConsoleApp1
             Console.Read();
         }
 
-        private static void Scope()
+        #region scope
+
+        private static void scope()
         {
             int a = 1;
             {
@@ -42,6 +44,8 @@ namespace ConsoleApp1
             //Console.WriteLine(b);
             //Console.WriteLine(c);
         }
+
+        #endregion
 
         #region literals
         private static void literals()
