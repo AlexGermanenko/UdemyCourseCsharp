@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Net.NetworkInformation;
+using System.Text;
 
 namespace ConsoleApp1
 {
@@ -9,7 +10,9 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
 
-            Arithmetics();
+            StringBuilder_();
+            
+            //Arithmetics();
 
             //Overflow();
 
@@ -20,6 +23,15 @@ namespace ConsoleApp1
             //Literals();
 
             Console.Read();
+        }
+
+        private static void StringBuilder_()
+        {
+            var sb = new StringBuilder("My name is");
+            sb.Append(" Alexander");
+
+
+            Console.WriteLine( sb.ToString() );
         }
 
         private static void Arithmetics()
