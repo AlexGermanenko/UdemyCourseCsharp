@@ -9,18 +9,40 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
 
-            overflow();
+            Arithmetics();
 
-            scope();
+            //Overflow();
 
-            variables();
+            //Scope();
 
-            literals();
+            //Variables();
+
+            //Literals();
 
             Console.Read();
         }
 
-        private static void overflow()
+        private static void Arithmetics()
+        {
+            int x = 1;
+
+            x++;
+            Console.WriteLine(x);
+
+            Console.WriteLine(++x);
+            Console.WriteLine(x++);
+
+            Console.WriteLine();
+
+            Console.WriteLine(x += 2);
+            Console.WriteLine(x -= 2);
+            Console.WriteLine(x *= 3);
+            Console.WriteLine(x /= 3);
+
+            Console.WriteLine();
+        }
+
+        private static void Overflow()
         {
             checked
             {
@@ -37,7 +59,7 @@ namespace ConsoleApp1
 
         #region scope
 
-        private static void scope()
+        private static void Scope()
         {
             int a = 1;
             {
@@ -63,7 +85,7 @@ namespace ConsoleApp1
         #endregion
 
         #region literals
-        private static void literals()
+        private static void Literals()
         {
             #region 2x
 
@@ -105,7 +127,7 @@ namespace ConsoleApp1
         #endregion
 
         #region vars
-        private static void variables()
+        private static void Variables()
         {
             int x = 1;
             int y;
