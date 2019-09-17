@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Net.NetworkInformation;
 
 namespace ConsoleApp1
 {
@@ -10,7 +11,7 @@ namespace ConsoleApp1
 
 
 
-
+            Scope();
 
             variables();
 
@@ -18,7 +19,30 @@ namespace ConsoleApp1
 
             Console.Read();
         }
-        
+
+        private static void Scope()
+        {
+            int a = 1;
+            {
+                int b = 2;
+                {
+                    int c = 3;
+
+                    Console.WriteLine(a);
+                    Console.WriteLine(b);
+                    Console.WriteLine(c);
+                }
+
+                Console.WriteLine(a);
+                Console.WriteLine(b);
+                //Console.WriteLine(c);
+            }
+
+            Console.WriteLine(a);
+            //Console.WriteLine(b);
+            //Console.WriteLine(c);
+        }
+
         #region literals
         private static void literals()
         {
