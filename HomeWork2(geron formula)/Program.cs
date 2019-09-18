@@ -14,7 +14,7 @@ namespace HomeWork2_geron_formula_
             double square = Math.Round(Math.Sqrt(p*(p-sideA)*(p - sideB)*(p - sideC)), 2);
 
             Console.WriteLine();
-            Console.WriteLine($"S={square}");
+            Console.WriteLine($"S = {square}");
 
             Console.Read();
         }
