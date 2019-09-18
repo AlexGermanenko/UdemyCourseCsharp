@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Text;
+using static CommonClass.Class1;
 
 namespace Homework1
 {
@@ -37,7 +38,7 @@ namespace Homework1
             Console.Read();
         }
 
-        public static string GetNotEmptyString(string question)
+        /*public static string GetNotEmptyString(string question)
         {
             string result = "";
             while (string.IsNullOrWhiteSpace(result))
@@ -46,6 +47,6 @@ namespace Homework1
                 result = Console.ReadLine();
             }
             return result;
-        }
+        }*/
     }
 }
