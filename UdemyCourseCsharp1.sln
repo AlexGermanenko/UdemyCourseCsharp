@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork2(geron formula)", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homeWork3_UserProfile", "homeWork3_UserProfile\homeWork3_UserProfile.csproj", "{6F754795-2C61-44D5-8DCC-6A44CFEBB6AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork4_FindMax", "HomeWork4_FindMax\HomeWork4_FindMax.csproj", "{FA93D818-317C-4AC6-AC16-8E530ACDFC18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonClass", "CommonClass\CommonClass.csproj", "{28B19451-0D2F-42B3-A84F-FB8DE52F01FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{6F754795-2C61-44D5-8DCC-6A44CFEBB6AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F754795-2C61-44D5-8DCC-6A44CFEBB6AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F754795-2C61-44D5-8DCC-6A44CFEBB6AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA93D818-317C-4AC6-AC16-8E530ACDFC18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA93D818-317C-4AC6-AC16-8E530ACDFC18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA93D818-317C-4AC6-AC16-8E530ACDFC18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA93D818-317C-4AC6-AC16-8E530ACDFC18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28B19451-0D2F-42B3-A84F-FB8DE52F01FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28B19451-0D2F-42B3-A84F-FB8DE52F01FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28B19451-0D2F-42B3-A84F-FB8DE52F01FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28B19451-0D2F-42B3-A84F-FB8DE52F01FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

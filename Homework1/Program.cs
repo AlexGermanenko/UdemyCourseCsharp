@@ -37,7 +37,7 @@ namespace Homework1
             Console.Read();
         }
 
-        private static string GetNotEmptyString(string question)
+        public static string GetNotEmptyString(string question)
         {
             string result = "";
             while (string.IsNullOrWhiteSpace(result))
