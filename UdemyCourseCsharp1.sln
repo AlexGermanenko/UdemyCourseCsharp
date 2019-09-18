@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork4_FindMax", "HomeWo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonClass", "CommonClass\CommonClass.csproj", "{28B19451-0D2F-42B3-A84F-FB8DE52F01FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonLibrary", "CommonLibrary\CommonLibrary.csproj", "{9CAEA66D-93DA-4328-8C9E-552F2997CF54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{28B19451-0D2F-42B3-A84F-FB8DE52F01FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28B19451-0D2F-42B3-A84F-FB8DE52F01FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28B19451-0D2F-42B3-A84F-FB8DE52F01FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CAEA66D-93DA-4328-8C9E-552F2997CF54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CAEA66D-93DA-4328-8C9E-552F2997CF54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CAEA66D-93DA-4328-8C9E-552F2997CF54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CAEA66D-93DA-4328-8C9E-552F2997CF54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
