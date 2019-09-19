@@ -20,14 +20,14 @@ namespace HomeWork6_AverageValue
                 i++;
             } while (i <= 10 && value != 0);
 
-            int result = 0;
+            double result = 0;
 
             for (int j = 0; j < array.Length; j++)
             {
                 result += array[j];
                 if (array[j] == 0)
                 {
-                    result = result / j;
+                    result = (double)result / j;
                     break;
                 }
             }

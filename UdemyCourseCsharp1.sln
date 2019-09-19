@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork5_Fibonachi", "Home
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork6_AverageValue", "HomeWork6_AverageValue\HomeWork6_AverageValue.csproj", "{C27A3B0C-7B72-4BB8-AED4-9BF039412CD4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork7_FactorialCalculation", "HomeWork7_FactorialCalculation\HomeWork7_FactorialCalculation.csproj", "{610524A0-A66B-45E6-A38F-6F4CD215226A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{C27A3B0C-7B72-4BB8-AED4-9BF039412CD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C27A3B0C-7B72-4BB8-AED4-9BF039412CD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C27A3B0C-7B72-4BB8-AED4-9BF039412CD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{610524A0-A66B-45E6-A38F-6F4CD215226A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{610524A0-A66B-45E6-A38F-6F4CD215226A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{610524A0-A66B-45E6-A38F-6F4CD215226A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{610524A0-A66B-45E6-A38F-6F4CD215226A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
