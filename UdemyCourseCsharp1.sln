@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork7_FactorialCalculat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork8_Authentication", "HomeWork8_Authentication\HomeWork8_Authentication.csproj", "{78DE67AC-FCFF-4BA5-BDC3-D9D67EA0A4F7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork9_ParsingRomanNumbers", "HomeWork9_ParsingRomanNumbers\HomeWork9_ParsingRomanNumbers.csproj", "{422AEEA3-2E62-4ACA-BC25-5F14322585AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{78DE67AC-FCFF-4BA5-BDC3-D9D67EA0A4F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78DE67AC-FCFF-4BA5-BDC3-D9D67EA0A4F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78DE67AC-FCFF-4BA5-BDC3-D9D67EA0A4F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{422AEEA3-2E62-4ACA-BC25-5F14322585AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{422AEEA3-2E62-4ACA-BC25-5F14322585AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{422AEEA3-2E62-4ACA-BC25-5F14322585AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{422AEEA3-2E62-4ACA-BC25-5F14322585AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
