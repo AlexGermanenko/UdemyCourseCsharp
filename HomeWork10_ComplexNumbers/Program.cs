@@ -9,7 +9,7 @@ namespace HomeWork10_ComplexNumbers
             Complex c1 = new Complex(1, 1);
             Complex c2 = new Complex(1,2);
 
-            Console.WriteLine( c1.Plus(c2).ToString() );
+            Console.WriteLine(c1.Plus(c2).ToString());
             Console.WriteLine(c1.Minus(c2).ToString());
 
             Console.Read();
