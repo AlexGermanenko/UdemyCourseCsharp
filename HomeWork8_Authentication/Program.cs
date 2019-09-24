@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 using static CommonLibrary.StringLibrary;
 
 namespace HomeWork8_Authentication
@@ -24,5 +25,7 @@ namespace HomeWork8_Authentication
             Console.WriteLine(result);
             Console.Read();
         }
+
+        
     }
 }
