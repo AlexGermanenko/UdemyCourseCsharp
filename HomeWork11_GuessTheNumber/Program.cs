@@ -6,8 +6,6 @@ namespace HomeWork11_GuessTheNumber
 {
     class Program
     {
-        
-
         static void Main(string[] args)
         {
             int gameMode = int.Parse(GetNotEmptyString("Choose game mode. 0 - player guess a number, 1 - computer guess a number:"));
