@@ -7,9 +7,7 @@ using static HomeWork13_WordGame.WordGameWithDelegates;
 namespace HomeWork13_WordGame
 {
     class Program
-    {
-        //public WordGameWithDelegates wordGame;
-
+    { 
         static void Main(string[] args)
         {
             WordGameWithDelegates wordGame = new WordGameWithDelegates();
@@ -263,7 +261,7 @@ namespace HomeWork13_WordGame
 
         public void WinLoseHandler(WinLose winLose)
         {
-            this.winLose = winLose;
+            this.winLose += winLose;
         }
     }
 }
